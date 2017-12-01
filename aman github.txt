@@ -1,0 +1,18 @@
+    #include<stdio.h>
+    int main()
+    {
+    	int n,k,i,h;
+    	static int p=0;
+    	scanf("%d ",&n);
+    	scanf("%d",&k);
+    	for(i=1;i<=n;i++)
+    	{
+    		scanf("%d\n",&h);
+    		if(h%k==0)
+    		{
+    			p++;
+    		
+    		}
+    	}
+    		printf("%d",p);
+    } 
